@@ -104,8 +104,8 @@
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #cf6262;
-  border: 2px solid #cf6262;
+  color: #fbfafa;
+  border: 2px solid #fbfafa;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #d7828f repeat;
+  background: #f4ccd2 repeat;
   position: relative;
 }
 
