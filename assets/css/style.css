@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #f4ccd2 repeat;
+  background: hsl(0, 76%, 84%) repeat;
   position: relative;
 }
 
@@ -348,7 +348,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #a8101b;
 }
 
 #intro.section .teal {
