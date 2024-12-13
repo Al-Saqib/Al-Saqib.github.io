@@ -591,6 +591,12 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
+
+  ul.side-nav.fixed a span {
+    white-space: normal; /* Enable wrapping */
+    word-wrap: break-word; /* Break long words if necessary */
+  }
+  
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
