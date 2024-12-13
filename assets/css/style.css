@@ -593,9 +593,16 @@ small {
   }
 
   ul.side-nav.fixed a span {
-    white-space: normal; /* Enable wrapping */
-    word-wrap: break-word; /* Break long words if necessary */
+    white-space: normal; /* Allows text wrapping */
+    word-wrap: break-word; /* Ensures words break properly */
+    display: inline-block; /* Adjusts alignment for wrapped text */
   }
+  
+  ul.side-nav.fixed a {
+    text-align: left; /* Ensures proper alignment */
+    display: block; /* Stretches the entire link block */
+  }
+  
   
   ul.side-nav a {
     line-height: 100%;
