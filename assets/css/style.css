@@ -363,11 +363,11 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(229, 78, 78, 0.5);
+  text-shadow: 1px 1px 5px rgba(236, 22, 22, 0.674);
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #a8101b;
+  border-bottom: 5px solid #ea071693;
 }
 
 #intro.section .teal {
