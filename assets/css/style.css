@@ -1,12 +1,12 @@
 .profile-pic {
   position: relative;
-  width: 120px; /* Ensure fixed width */
-  height: 120px; /* Ensure fixed height */
+  width: 125px; /* Ensure fixed width */
+  height: 125px; /* Ensure fixed height */
   overflow: hidden;
   margin: -31px; 
   margin-left: -7px;
   border: 6px solid rgba(79, 221, 112, 0.897);
-  border-radius: 40%; /* Makes the container circular */
+  border-radius: 45%; /* Makes the container circular */
 }
 
 
@@ -363,7 +363,7 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(155, 240, 17, 0.901);
+  text-shadow: 1px 1px 5px rgba(243, 66, 12, 0.671);
 }
 
 #intro.section .underline {
