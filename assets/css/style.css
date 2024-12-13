@@ -1,12 +1,12 @@
 .profile-pic {
   position: relative;
-  width: 130px; /* Ensure fixed width */
-  height: 130px; /* Ensure fixed height */
+  width: 120px; /* Ensure fixed width */
+  height: 120px; /* Ensure fixed height */
   overflow: hidden;
   margin: -31px; 
   margin-left: -7px;
-  border: 6px solid rgba(0, 77, 64, 0.4);
-  border-radius: 50%; /* Makes the container circular */
+  border: 6px solid rgba(221, 81, 79, 0.4);
+  border-radius: 40%; /* Makes the container circular */
 }
 
 
