@@ -227,6 +227,17 @@ ul.side-nav li {
   padding: 0;
 }
 
+/* Ensure text wrapping and alignment for long navigation items */
+ul.side-nav li a span {
+  display: inline-block; /* Allows proper block-level behavior */
+  max-width: 150px; /* Limit width to prevent excessive stretching */
+  white-space: normal; /* Enable wrapping */
+  word-wrap: break-word; /* Force wrapping of long words */
+  text-align: left; /* Align text to the left */
+  line-height: 1.4; /* Improve readability */
+}
+
+
 /* ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(48, 122, 207);
@@ -241,6 +252,18 @@ ul.side-nav.fixed a {
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
+}
+
+ul.side-nav.fixed a span {
+  white-space: normal; /* Allows text wrapping */
+  word-wrap: break-word; /* Ensures words break properly */
+  max-width: 150px; /* Adjust width if necessary */
+  display: inline-block; /* Adjusts alignment for wrapped text */
+}
+
+ul.side-nav.fixed a {
+  text-align: left; /* Ensures proper alignment */
+  display: block; /* Stretches the entire link block */
 }
 
 ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
@@ -590,17 +613,6 @@ small {
   main {
     padding-left: 0px;
     padding-top: 64px;
-  }
-
-  ul.side-nav.fixed a span {
-    white-space: normal; /* Allows text wrapping */
-    word-wrap: break-word; /* Ensures words break properly */
-    display: inline-block; /* Adjusts alignment for wrapped text */
-  }
-  
-  ul.side-nav.fixed a {
-    text-align: left; /* Ensures proper alignment */
-    display: block; /* Stretches the entire link block */
   }
   
   
