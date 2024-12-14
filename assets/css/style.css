@@ -60,7 +60,7 @@
 
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #FFFFFF;
+  color: #d69668;
 }
 
 .linkedin:hover {
@@ -339,7 +339,7 @@ h3 {
 } */
 
 #intro.section {
-  background: hsl(5, 50%, 78%) repeat;
+  background: hsl(10, 83%, 65%) repeat;
   position: relative;
 }
 
